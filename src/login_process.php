@@ -30,7 +30,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
             if ($row['email'] === $email && $row['password'] === $pass) {
               if ($row['level_id'] === "2") {
                 $_SESSION['name'] = $row['username']; /* if login succes session will start*/
-                header("Location: userhome.html"); /* link to user main page */
+                header("Location: menu.html"); /* link to user main page */
               exit();
               }
               else if($row['level_id'] === "1"){
