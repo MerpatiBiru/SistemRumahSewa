@@ -23,6 +23,9 @@
                             <?php if (isset($_GET['error'])) { ?>
 			                <p class="error"><?php echo $_GET['error']; ?></p>
 		                    <?php } ?>
+			    <?php if (isset($_GET['sucess'])) { ?>
+			                 <p class="sucess"><?php echo $_GET['sucess']; ?></p>
+		                    <?php } ?>
                         </div>
 
                         <div class="inputBx">
