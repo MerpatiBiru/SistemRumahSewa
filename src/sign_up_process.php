@@ -37,7 +37,7 @@ $phone=$_POST['telephone'];
         }
     }else{
 	    $input=mysqli_query($connect,"INSERT INTO users (username,email,password,
-	    phoneNum,level_id)VALUES('$uname','$pass','$email','$phone','2')");
+	    phoneNum,level_id)VALUES('$uname','$email','$pass','$phone','2')");
 	
 	    if($input){
 		   header("Location: sign_up.php?sucess=Success");
