@@ -40,7 +40,7 @@ $phone=$_POST['telephone'];
 	    phoneNum,level_id)VALUES('$uname','$email','$pass','$phone','2')");
 	
 	    if($input){
-		   header("Location: sign_up.php?sucess=Success");
+		   header("Location: login_user.php?sucess=Success");
 		   exit();
 	    }
     }
