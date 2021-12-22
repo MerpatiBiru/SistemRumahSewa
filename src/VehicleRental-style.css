@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Orbitron&family=Saira+Condensed:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(img/bg1.jpg);
+    
+    background-size: cover;
+}
+.title{
+    margin: 45px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.0em;
+    text-transform: uppercase;
+    word-spacing: 0.8px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 300px;
+    margin: 20px 55px;
+    border-radius: 15px;
+}
+.card:hover{
+    background-color: rgb(237, 121, 13);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.card-img{
+    height: 270px;
+    border-radius: 15px 15px 0 0;
+}
+.card h2{
+    justify-content: center;
+    padding: 10px 35px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.3em;
+    word-spacing: 1.0px;
+}
+.card h1{
+    justify-content: center;
+    padding: 10px 35px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 2.0em;
+    word-spacing: 1.0px;
+    text-align: center;
+}
+.title h1{
+    justify-content: center;
+    padding: 10px 35px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 2.0em;
+    word-spacing: 1.0px;
+    text-align: center;
+	color:white;
+}
+.card p{
+    justify-content: center;
+    padding: 0 35px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.2em;
+}
+
+.axia-1{
+    background: url("img/axia/TgMalim_Axia_2_img2.jpg");
+    background-size: cover;
+}
+
+.bezza-1{
+    background: url("img/bezza/Behrang_Bezza_2_img1.jpg");
+    background-size: cover;
+}
+.bezza-2{
+    background: url("img/bezza/TgMalim_Bezza_3_img3.jpg");
+    background-size: cover;
+}
+.bezza-3{
+    background: url("img/bezza/SlimRiver_Bezza_4_img1.jpg");
+    background-size: cover;
+}
+
+.saga-1{
+    background: url("img/saga/TgMalim_Saga_5_img1.jpg");
+    background-size: cover;
+}
+.saga-2{
+    background: url("img/saga/TgMalim_Saga_6_img1.jpg");
+    background-size: cover;
+}
+
+.myvi-1{
+    background: url("img/myvi/SlimRiver_Myvi_7_img4.jpg");
+    background-size: cover;
+}
+.myvi-2{
+    background: url("img/myvi/SlimRiver_Myvi_8_img1.jpg");
+    background-size: cover;
+}
+.myvi-3{
+    background: url("img/myvi/TgMalim_Myvi_9_img1.jpg");
+    background-size: cover;
+}
+.myvi-4{
+    background: url("img/myvi/SlimRiver_Myvi_10_img1.jpg");
+    background-size: cover;
+}
+.myvi-5{
+    background: url("img/myvi/SlimRiver_Myvi_11_img1.jpg");
+    background-size: cover;
+}
+
+
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 55px;
+    text-decoration: none;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .title h1{
+        font-size: 0.5em;
+       
+    }
+
+}
